@@ -12,3 +12,10 @@ Dialog::~Dialog()
 {
     delete ui;
 }
+
+void Dialog::on_configration_clicked()
+{
+    //调用新窗口
+    view=new Config(this);
+    view->show();
+}

@@ -2,6 +2,7 @@
 #define DIALOG_H
 
 #include <QDialog>
+#include "config.h"
 
 namespace Ui {
 class Dialog;
@@ -15,8 +16,12 @@ public:
     explicit Dialog(QWidget *parent = 0);
     ~Dialog();
 
+private slots:
+    void on_configration_clicked();
+
 private:
     Ui::Dialog *ui;
+    Config *view;
 };
 
 #endif // DIALOG_H
