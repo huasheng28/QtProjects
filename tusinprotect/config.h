@@ -15,6 +15,11 @@ public:
     explicit Config(QWidget *parent = 0);
     ~Config();
 
+private slots:
+    void on_filepath_btn_clicked();
+
+    void on_pushButton_clicked();
+
 private:
     Ui::Config *ui;
 };

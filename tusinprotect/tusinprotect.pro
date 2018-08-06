@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-08-03T11:39:27
+# Project created by QtCreator 2018-08-06T11:55:09
 #
 #-------------------------------------------------
 
@@ -8,16 +8,16 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = protecter
+TARGET = tusinprotect
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        dialog.cpp \
+        mainwindow.cpp \
     config.cpp
 
-HEADERS  += dialog.h \
+HEADERS  += mainwindow.h \
     config.h
 
-FORMS    += dialog.ui \
+FORMS    += mainwindow.ui \
     config.ui
