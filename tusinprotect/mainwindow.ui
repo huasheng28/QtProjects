@@ -37,7 +37,7 @@
      <string>Configration</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="startBtn">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -50,7 +50,7 @@
      <string>Start</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="stopBtn">
     <property name="geometry">
      <rect>
       <x>470</x>

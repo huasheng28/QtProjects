@@ -4,8 +4,8 @@
 #include <QString>
 
 QString filepath;
-QString url;
-QString sendmsg;
+QString spyurl;
+QString sendmsgurl;
 
 Config::Config(QWidget *parent) :
     QDialog(parent),
@@ -28,7 +28,7 @@ void Config::on_filepath_btn_clicked()
 
 void Config::on_pushButton_clicked()
 {
-    url=ui->lineEdit_url->text();
-    sendmsg=ui->lineEdit_sendmsg->text();
+    spyurl=ui->lineEdit_url->text();
+    sendmsgurl=ui->lineEdit_sendmsg->text();
     this->close();
 }
