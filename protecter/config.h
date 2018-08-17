@@ -16,9 +16,9 @@ public:
     ~Config();
 
 private slots:
-    void on_filepath_btn_clicked();
+    void on_chooseBtn_clicked();
 
-    void on_pushButton_clicked();
+    void on_setBtn_clicked();
 
 private:
     Ui::Config *ui;
